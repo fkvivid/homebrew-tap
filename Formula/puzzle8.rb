@@ -9,7 +9,7 @@ class Puzzle8 < Formula
   depends_on "go" => :build
 
   def install
-    ssytem "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/puzzle8"
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/puzzle8"
   end
 
   test do
