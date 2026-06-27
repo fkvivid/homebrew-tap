@@ -2,7 +2,7 @@ class Puzzle8 < Formula
   desc "Terminal sliding-puzzle game and solver"
   homepage "https://github.com/fkvivid/puzzle8"
   url "https://github.com/fkvivid/puzzle8/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  sha256 "acb42b748ec24c574cee8ec48458ae03cd8640f7fe53acec957ba3ea4548ffac"
   license "MIT"
   head "https://github.com/fkvivid/puzzle8.git", branch: "main"
 
